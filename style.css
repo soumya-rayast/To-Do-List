@@ -108,3 +108,41 @@ ul li span{
 ul li span:hover{
     background: linear-gradient(238deg, rgba(86,80,210,0.9871794871794872) 13%, rgba(208,95,95,1) 81%);
 }
+
+@media screen and (max-width : 500px) {
+    .todoApp {
+        width: 100%;
+        max-width: 350px;
+        background: white;
+        margin: 50px auto 20px;
+        padding: 40px 30px 70px;
+        border-radius: 10px;
+    }
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: rgb(244, 237, 237);
+        border-radius: 30px;
+        padding-left: 20px;
+        margin-bottom: 25px;
+    }
+    .row input {
+        flex: 1;
+        border: none;
+        outline: none;
+        background: transparent;
+        padding: 10px;
+        font-weight: 15px;
+    }
+    .row button {
+        border: none;
+        outline: none;
+        padding: 16px 20px;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(89, 71, 255, 0.9697128851540616) 1%, rgba(133, 27, 144, 1) 100%);
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 40px;
+    }
+}
